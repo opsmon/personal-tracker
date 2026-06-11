@@ -1,0 +1,1168 @@
+window.readingLogData = {
+  "year": 2026,
+  "generated_at": "2026-06-11T08:16:48Z",
+  "summary": {
+    "books": 11,
+    "courses": 16,
+    "events": 17,
+    "webinars": 35
+  },
+  "activities": [
+    {
+      "type": "books",
+      "month": "January",
+      "month_index": 0,
+      "year": 2026,
+      "title": "How Google Works (2nd Edition)",
+      "meta": "Eric Schmidt, Jonathan Rosenberg",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "books",
+      "month": "January",
+      "month_index": 0,
+      "year": 2026,
+      "title": "Jedi Techniques: How to Tame Your Monkey, Empty Your Inbox and Save Mental Fuel",
+      "meta": "Maxim Dorofeev",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "books",
+      "month": "January",
+      "month_index": 0,
+      "year": 2026,
+      "title": "The Deadline Effect: 7 Ways to Effectively Manage Time Constraints",
+      "meta": "Christopher Cox",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "January",
+      "month_index": 0,
+      "year": 2026,
+      "title": "Introduction to machine learning operations (MLOps)",
+      "meta": "Microsoft Learn",
+      "date": "10.01.2026",
+      "links": [
+        {
+          "label": "learn.microsoft.com",
+          "url": "https://learn.microsoft.com/en-us/users/sergeyfrolov-0576/achievements/824v3eew"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "January",
+      "month_index": 0,
+      "year": 2026,
+      "title": "AZ-400: Development for Enterprise DevOps",
+      "meta": "Microsoft Learn",
+      "date": "11.01.2026",
+      "links": [
+        {
+          "label": "learn.microsoft.com",
+          "url": "https://learn.microsoft.com/en-us/users/sergeyfrolov-0576/achievements/ak5dv647"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "January",
+      "month_index": 0,
+      "year": 2026,
+      "title": "LFS169: Introduction to GitOps",
+      "meta": "The Linux Foundation",
+      "date": "12.01.2026",
+      "links": [
+        {
+          "label": "credly.com",
+          "url": "https://www.credly.com/badges/ea43bb61-fc9a-4cab-a675-52e75ffe6bf0"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "January",
+      "month_index": 0,
+      "year": 2026,
+      "title": "Linux Server Administration",
+      "meta": "slurm.io",
+      "date": "29.01.2026",
+      "links": [
+        {
+          "label": "edu.slurm.io",
+          "url": "https://edu.slurm.io/certificate/9932a153-8107-4e3f-a65a-19472c8de337"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "January",
+      "month_index": 0,
+      "year": 2026,
+      "title": "Kubeer Talks #2",
+      "meta": "Kubernetes community meetup, Moscow",
+      "date": "29.01.2026",
+      "links": [
+        {
+          "label": "k8sday.ru",
+          "url": "https://k8sday.ru/kubeer-talks-2"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "month": "February",
+      "month_index": 1,
+      "year": 2026,
+      "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+      "meta": "Robert C. Martin",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "books",
+      "month": "February",
+      "month_index": 1,
+      "year": 2026,
+      "title": "The Durov Code",
+      "meta": "Nikolai Kononov",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "events",
+      "month": "February",
+      "month_index": 1,
+      "year": 2026,
+      "title": "T-Sync Conf",
+      "meta": "T-Technologies conference, engineering practices & AI/Data/Platform/Security, Moscow",
+      "date": "07.02.2026",
+      "links": [
+        {
+          "label": "t-syncconf.ru",
+          "url": "https://t-syncconf.ru/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "February",
+      "month_index": 1,
+      "year": 2026,
+      "title": "DUC Meetup /4: OS for K8s, Home Virtualization, and Solo DKP CE Operations",
+      "meta": "Deckhouse community meetup, Moscow",
+      "date": "26.02.2026",
+      "links": [
+        {
+          "label": "flant.timepad.ru",
+          "url": "https://flant.timepad.ru/event/3794622/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "February",
+      "month_index": 1,
+      "year": 2026,
+      "title": "Enterprise CI/CD Without Compromise: The Deckhouse Code Approach",
+      "meta": "Deckhouse webinar, online",
+      "date": "27.02.2026",
+      "links": [
+        {
+          "label": "my.mts-link.ru",
+          "url": "https://my.mts-link.ru/j/Deckhouse/deckhouse_code"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "February",
+      "month_index": 1,
+      "year": 2026,
+      "title": "Moscow Python Meetup #108",
+      "meta": "Python community meetup, Moscow",
+      "date": "27.02.2026",
+      "links": [
+        {
+          "label": "moscowpython.ru",
+          "url": "https://moscowpython.ru/meetup/108/"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "At Home: How to Turn Remote Work into an Advantage",
+      "meta": "Alexander Mezin",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "books",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Cloud Native Programming: Develop microservice-based high-performance web apps for the cloud",
+      "meta": "Ivan Portyankin",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "LFS162: Introduction to DevOps and Site Reliability Engineering",
+      "meta": "The Linux Foundation",
+      "date": "01.03.2026",
+      "links": [
+        {
+          "label": "credly.com",
+          "url": "https://www.credly.com/badges/8d1f188f-7f3a-430b-8c90-f354c8467773"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Linux Networking",
+      "meta": "slurm.io",
+      "date": "04.03.2026",
+      "links": [
+        {
+          "label": "edu.slurm.io",
+          "url": "https://edu.slurm.io/certificate/b795b405-a64e-4dcc-92c4-b01b00c14a8a"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Linux for Developers",
+      "meta": "slurm.io",
+      "date": "04.03.2026",
+      "links": [
+        {
+          "label": "edu.slurm.io",
+          "url": "https://edu.slurm.io/certificate/fb208bba-270a-4e41-b63e-4f6476859d24"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Monitoring Systems with Prometheus",
+      "meta": "slurm.io",
+      "date": "08.03.2026",
+      "links": [
+        {
+          "label": "edu.slurm.io",
+          "url": "https://edu.slurm.io/certificate/bfc54fff-9309-4be7-a2a7-e9ed1e41a437"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Deckhouse Practicum",
+      "meta": "Deckhouse meetup, Moscow",
+      "date": "12.03.2026",
+      "links": [
+        {
+          "label": "deckhouse.ru",
+          "url": "https://deckhouse.ru/practicum/#program"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Proven Secrets Security: Deckhouse Stronghold Receives FSTEC Russia Certificate",
+      "meta": "Deckhouse webinar",
+      "date": "12.03.2026",
+      "links": [
+        {
+          "label": "deckhouse.ru",
+          "url": "https://deckhouse.ru/webinars/fstec-stronghold-0326/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Workshop: How to Deploy a Private LLM in a Kubernetes Cluster",
+      "meta": "Selectel workshop",
+      "date": "12.03.2026",
+      "links": [
+        {
+          "label": "selectel.ru",
+          "url": "https://selectel.ru/blog/events/llm-in-kubernetes/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "AI Dev Day",
+      "meta": "Yandex conference",
+      "date": "15.03.2026",
+      "links": [
+        {
+          "label": "events.yandex.ru",
+          "url": "https://events.yandex.ru/events/ai-dev-day-03-26/index"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "SRE: Calculating Incident Impact and Methods for Maintaining Availability Within Defined Bounds",
+      "meta": "fournines meetup",
+      "date": "15.03.2026",
+      "links": [
+        {
+          "label": "fournines.timepad.ru",
+          "url": "https://fournines.timepad.ru/event/3861431/"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Yandex Cloud Fundamentals",
+      "meta": "Yandex Cloud Training & Certification",
+      "date": "16.03.2026",
+      "links": [
+        {
+          "label": "storage.yandexcloud.net",
+          "url": "https://storage.yandexcloud.net/yc-edu-self-courses-certs/certificates/499740948_yc-cross-base_Сергей_Фролов.pdf"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "AI Development Under Control: How to Reduce Tech Debt and Vulnerabilities",
+      "meta": "Cloud.ru webinar",
+      "date": "17.03.2026",
+      "links": [
+        {
+          "label": "cloud.ru",
+          "url": "https://cloud.ru/events/ai-razrabotka-pod-kontrolem-kak-sokratit-tekhdolg-i-uiazvimosti-11347437637"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Moscow Python Meetup #109",
+      "meta": "Python community meetup, Moscow",
+      "date": "18.03.2026",
+      "links": [
+        {
+          "label": "moscowdjango.timepad.ru",
+          "url": "https://moscowdjango.timepad.ru/event/3858942/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Observability Conf",
+      "meta": "Conference",
+      "date": "19.03.2026",
+      "links": [
+        {
+          "label": "observability-conf.ru",
+          "url": "https://observability-conf.ru/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "PGConf.Russia 2026",
+      "meta": "PostgreSQL conference, Moscow",
+      "date": "23.03.2026 – 24.03.2026",
+      "links": [
+        {
+          "label": "pgconf.ru",
+          "url": "https://pgconf.ru/260323"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Cloud Computing",
+      "meta": "Yandex Cloud Training & Certification",
+      "date": "24.03.2026",
+      "links": [
+        {
+          "label": "storage.yandexcloud.net",
+          "url": "https://storage.yandexcloud.net/yc-edu-self-courses-certs/certificates/501904694_yc-cross-cloud_Сергей_Фролов.pdf"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "UserGate Open Conf 2026",
+      "meta": "UserGate conference",
+      "date": "25.03.2026",
+      "links": [
+        {
+          "label": "usergate.com",
+          "url": "https://usergate.com/events/usergate-open-conf-2026-11994"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "A Look at the Software Market: How Estimates and Forecasts Are Really Formed",
+      "meta": "Yandex Cloud webinar",
+      "date": "25.03.2026",
+      "links": [
+        {
+          "label": "yandex.cloud",
+          "url": "https://yandex.cloud/ru/events/1462"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "How to Optimize Redis for High Load: A Complete Guide",
+      "meta": "Selectel workshop",
+      "date": "26.03.2026",
+      "links": [
+        {
+          "label": "selectel.ru",
+          "url": "https://selectel.ru/blog/events/how-to-redis/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Ingress Nginx Is Dead, Long Live Gateway API",
+      "meta": "Chislitellab webinar",
+      "date": "26.03.2026",
+      "links": [
+        {
+          "label": "habr.com",
+          "url": "https://habr.com/ru/companies/chislitellab/news/1013592/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Avito Database Meetup",
+      "meta": "Avito Tech meetup",
+      "date": "27.03.2026",
+      "links": [
+        {
+          "label": "avito.tech",
+          "url": "https://avito.tech/events/pxb3dbi2x1-avito-database-meetup-27-marta"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "DevSecOps Episode 2",
+      "meta": "Online meetup",
+      "date": "27.03.2026",
+      "links": [
+        {
+          "label": "cybercamp.su",
+          "url": "https://cybercamp.su/devsecops-episode2"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Yandex Saturday: JVM Languages",
+      "meta": "Yandex meetup",
+      "date": "28.03.2026",
+      "links": [
+        {
+          "label": "events.yandex.ru",
+          "url": "https://events.yandex.ru/events/ya-subbotnik-jvm-28-03-2026/index"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Analytical Database in Cloud: Scalability, Predictability, and Economic Efficiency",
+      "meta": "Selectel x CR-TECH webinar",
+      "date": "31.03.2026",
+      "links": [
+        {
+          "label": "selectel.ru",
+          "url": "https://selectel.ru/blog/events/analytics-database/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "March",
+      "month_index": 2,
+      "year": 2026,
+      "title": "Golang Without Illusions: Performance, Security, and Architecture",
+      "meta": "RailsClub meetup",
+      "date": "31.03.2026",
+      "links": [
+        {
+          "label": "railsclub",
+          "url": "https://railsclub.timepad.ru/event/3881382/"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Git Secrets: Never Lose Your Code!",
+      "meta": "",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "books",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Gospel of IT: How IT Startups Are Really Created",
+      "meta": "Dan Lyons",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "events",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "DevOpsConf 2026",
+      "meta": "DevOps conference -",
+      "date": "02.04.2026-03.04.2026",
+      "links": [
+        {
+          "label": "devopsconf.io",
+          "url": "https://devopsconf.io/"
+        },
+        {
+          "label": "certificate",
+          "url": "https://sun1-22.userapi.com/s/v1/ig2/P8rbg_oUUMpS1K335zXKqwH8rbEnDIMP3S_DnVRZG0WNkEwpRkgQ5t5NQajxA7zekE7mLHjU-AQcPCIbIwz9lzIh.jpg?quality=95&as=32x23,48x34,72x51,108x76,160x113,240x170,360x254,480x339,540x381,640x452,720x509,841x594&from=bu&cs=841x0"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Data Lakehouse in One Click",
+      "meta": "Yandex Cloud meetup",
+      "date": "02.04.2026",
+      "links": [
+        {
+          "label": "yandex.cloud",
+          "url": "https://yandex.cloud/ru/events/1463"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Transforming 1C Data into Business Insights Using BI and AI",
+      "meta": "Yandex Cloud webinar",
+      "date": "07.04.2026",
+      "links": [
+        {
+          "label": "yandex.cloud",
+          "url": "https://yandex.cloud/ru/events/1469"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Deckhouse Conf 2026",
+      "meta": "Deckhouse technical conference on DevOps, Kubernetes, virtualization and platform engineering",
+      "date": "09.04.2026",
+      "links": [
+        {
+          "label": "deckhouseconf.ru",
+          "url": "https://deckhouseconf.ru/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "IT Fest 34",
+      "meta": "IT security and programming festival, College of Information Security and Programming — speaker: \"Getting Into IT\"",
+      "date": "10.04.2026",
+      "links": [
+        {
+          "label": "vk.ru/college34",
+          "url": "https://vk.ru/college34?w=wall-58360394_10817"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Containerization with Docker",
+      "meta": "Yandex Cloud Training & Certification",
+      "date": "14.04.2026",
+      "links": [
+        {
+          "label": "storage.yandexcloud.net",
+          "url": "https://storage.yandexcloud.net/yc-edu-self-courses-certs/certificates/507649134_yc-devops-container_Сергей_Фролов.pdf"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "K2 Cloud Conf",
+      "meta": "K2 Cloud conference",
+      "date": "14.04.2026",
+      "links": [
+        {
+          "label": "2026.k2.cloud",
+          "url": "https://2026.k2.cloud/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "about:cloud — infrastructure",
+      "meta": "Yandex Cloud conference, infrastructure",
+      "date": "16.04.2026",
+      "links": [
+        {
+          "label": "events.yandex.ru",
+          "url": "https://events.yandex.ru/events/aboutcloud/indexmsc26"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Moscow Python Meetup #110",
+      "meta": "Python community meetup, Moscow",
+      "date": "20.04.2026",
+      "links": [
+        {
+          "label": "moscowdjango.timepad.ru",
+          "url": "https://moscowdjango.timepad.ru/event/3902512/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Milky Way",
+      "meta": "Selectel AI & ML conference, Moscow",
+      "date": "22.04.2026",
+      "links": [
+        {
+          "label": "mlconf.selectel.ru",
+          "url": "https://mlconf.selectel.ru/"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Ten Competencies of a Student Project Mentor",
+      "meta": "Academy of Mentors / Skolkovo",
+      "date": "23.04.2026",
+      "links": [
+        {
+          "label": "academy.sk.ru",
+          "url": "https://academy-adm-v2.sk.ru/api/certificate/event/Vs1TyOm1bf93oooIj9MA5WzDiQmWpEfGx7sjZBQ6c8Km43HyHL2KrEr3VkHOqriR2BYiSu0VjSjwebXCoztQAyGceRJA9X0he1lwhigv1APgAGGv8NJQhDtdKyvDtQhhxyqFnh1vhVzOCR8Wzm7xfOKRr4piVuLKCkG2MzjaOe8HHnZW7XvlHdhbL7rE678Z7Y1dBdlv6ZJt0br1kv4eI1szdxYl45Li70cwpQjjhdONDRqu2ZjwgGG57c"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "How to Become a Project Mentor",
+      "meta": "Academy of Mentors / Skolkovo — 18 modules, 24h",
+      "date": "24.04.2026",
+      "links": [
+        {
+          "label": "academy.sk.ru",
+          "url": "https://academy-adm-v2.sk.ru/api/certificate/event/63YiTzIlW41Jip1DqG6Exvqm3JZr5geFQ8qIyYV7LY8lqHiS7kA9VSVo0PQl2u5h2d3EAlro32LEcN3R0bu6Rrf0UWKPoezMtGXlboOFe2wSuJ6oCK0TKpvUDJ4ovvNLHS9FPtWPphzsPplb89AeHGkhr50rE6NdvIc787RwOFPqXyYrqZGZe6rGmH4e97OLXpxma7LuZFgzE0TzFSMVdMeCP1a7laiQOK0PGfRwvJOBhneWqy2mQGi6Xz"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Modern Infrastructure Under FSTEC Requirements: Containerization, Virtualization, and Unified Management",
+      "meta": "Deckhouse webinar",
+      "date": "24.04.2026",
+      "links": [
+        {
+          "label": "deckhouse.ru",
+          "url": "https://deckhouse.ru/webinars/containerization-virtualization-po-fstec/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Moscow Half 5K",
+      "meta": "5km run, Moscow",
+      "date": "26.04.2026",
+      "links": [
+        {
+          "label": "moscowhalf5km.runc.run",
+          "url": "https://moscowhalf5km.runc.run/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "shrt1|hack",
+      "meta": "IT at MISIS hackathon — expert for student teams",
+      "date": "26.04.2026",
+      "links": [
+        {
+          "label": "t.me/itatmisis/1678",
+          "url": "https://t.me/itatmisis/1678"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "How Security Is Ensured with Yandex BareMetal",
+      "meta": "Yandex Cloud webinar, online",
+      "date": "28.04.2026",
+      "links": [
+        {
+          "label": "yandex.cloud",
+          "url": "https://yandex.cloud/ru/events/1480"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "April",
+      "month_index": 3,
+      "year": 2026,
+      "title": "Pod Security Standards — Only the Beginning: How to Build a Complete Security Model in Kubernetes",
+      "meta": "Deckhouse webinar",
+      "date": "28.04.2026",
+      "links": [
+        {
+          "label": "deckhouse.ru",
+          "url": "https://deckhouse.ru/webinars/pss_28_04_26/"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "The 7 Habits of Highly Effective People",
+      "meta": "Stephen Covey",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "SELECTOS OpenFix Day 2.0",
+      "meta": "Selectel meetup for sysadmins, DevOps and SRE engineers, Saint Petersburg",
+      "date": "06.05.2026",
+      "links": [
+        {
+          "label": "selectel.ru",
+          "url": "https://selectel.ru/blog/events/selectos-openfix-day-2026/"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "AI and Prompting for Student Projects",
+      "meta": "Yandex Education",
+      "date": "10.05.2026",
+      "links": [
+        {
+          "label": "education.yandex.ru",
+          "url": "https://education.yandex.ru/profile/docs?id=53d7a00f-7892-45b6-9584-08be4a6758d5"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "LFEL1004: Authentication & Authorization for Web/API",
+      "meta": "The Linux Foundation",
+      "date": "10.05.2026",
+      "links": [
+        {
+          "label": "credly.com",
+          "url": "https://www.credly.com/badges/43976d2f-bee6-4623-876d-2dc2ff51471b"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "LFD140: GitHub for Open Standards Development",
+      "meta": "The Linux Foundation",
+      "date": "12.05.2026",
+      "links": [
+        {
+          "label": "credly.com",
+          "url": "https://www.credly.com/badges/4bf78a4c-b831-43e9-9524-b136d8d2393e"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "Google I/O 2026",
+      "meta": "Google developer conference, stream",
+      "date": "19.05.2026-20.05.2026",
+      "links": [
+        {
+          "label": "io.google",
+          "url": "https://io.google/2026/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "How to Deploy Disaster-Resilient Services in Selectel Cloud",
+      "meta": "Selectel webinar, online",
+      "date": "20.05.2026",
+      "links": [
+        {
+          "label": "selectel.ru",
+          "url": "https://selectel.ru/blog/events/cloud-ru6/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "Inside AI Meetup",
+      "meta": "RWB (Wildberries & Russ) AI meetup, hybrid: Moscow and online",
+      "date": "20.05.2026",
+      "links": [
+        {
+          "label": "meetup.rwb.ru",
+          "url": "https://meetup.rwb.ru/events/ai-meetup"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "Time Series Forecasting: From Naive Method to Meta-Model",
+      "meta": "karpov.courses ML workshop, online",
+      "date": "20.05.2026",
+      "links": [
+        {
+          "label": "karpov.courses",
+          "url": "https://karpov.courses/webinar-hardml-forecasting"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "Data Fest 2026 | Moscow, Opening Offline Day",
+      "meta": "Open Data Science and X5 Tech data/ML conference day, Moscow",
+      "date": "23.05.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/events/fest2026-x5-msc"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "How Cloud CDN and Object Storage Offload High-Load Infrastructure",
+      "meta": "Yandex Cloud webinar, online",
+      "date": "25.05.2026",
+      "links": [
+        {
+          "label": "yandex.cloud",
+          "url": "https://yandex.cloud/ru/events/1489"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "Data Fest 2026 | May 27, Online Talks and Activities",
+      "meta": "Open Data Science Data Fest online talks and activities, online",
+      "date": "27.05.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/events/df2026-27-may-online"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "Data Fest 2026 | May 28, Online Talks and Activities",
+      "meta": "Open Data Science Data Fest online talks and activities, online",
+      "date": "28.05.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/events/df2026-28-may-online"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "Data Fest 2026 | Moscow, May 29 Offline Day",
+      "meta": "Open Data Science Data Fest offline day at Lemana Tech, Moscow",
+      "date": "29.05.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/events/fest2026-lemana-msc"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "May",
+      "month_index": 4,
+      "year": 2026,
+      "title": "Data Fest 2026 | Moscow, May 30 Offline Day",
+      "meta": "Open Data Science Data Fest webinar, online",
+      "date": "30.05.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/events/fest2026-avito-msc"
+        }
+      ]
+    },
+    {
+      "type": "books",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
+      "title": "Steve Jobs",
+      "meta": "Walter Isaacson",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
+      "title": "Microsoft Build 2026",
+      "meta": "Microsoft developer conference, online",
+      "date": "02.06.2026-03.06.2026",
+      "links": [
+        {
+          "label": "news.microsoft.com",
+          "url": "https://news.microsoft.com/build-2026/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
+      "title": "Your Own ML Factory: What a Proprietary ML Platform Provides and How to Launch It",
+      "meta": "Cloud.ru webinar about ML platforms and Evolution Stack.ML, online",
+      "date": "02.06.2026",
+      "links": [
+        {
+          "label": "cloud.ru",
+          "url": "https://cloud.ru/events/svoi-ml-zavod-chto-daet-sobstvennaia-ml-platforma-i-kak-ee-zapustit-18408491400"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
+      "title": "infra.conf'26",
+      "meta": "Yandex conference about building and operating high-load systems and infrastructure, Moscow",
+      "date": "04.06.2026",
+      "links": [
+        {
+          "label": "infra.yandex.ru",
+          "url": "https://infra.yandex.ru/event/infraconf"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
+      "title": "InfraDev Meetup #4: Summer Edition",
+      "meta": "VK Tech infrastructure development meetup, offline",
+      "date": "10.06.2026",
+      "links": [
+        {
+          "label": "team.vk.company",
+          "url": "https://team.vk.company/events/1455/"
+        }
+      ]
+    }
+  ]
+};
