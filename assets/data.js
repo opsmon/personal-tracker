@@ -1,10 +1,10 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-06-11T08:16:48Z",
+  "generated_at": "2026-07-18T08:59:33Z",
   "summary": {
     "books": 11,
     "courses": 16,
-    "events": 17,
+    "events": 18,
     "webinars": 35
   },
   "activities": [
@@ -1161,6 +1161,21 @@ window.readingLogData = {
         {
           "label": "team.vk.company",
           "url": "https://team.vk.company/events/1455/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "AvitoTech meetup",
+      "meta": "AvitoTech event, Moscow",
+      "date": "17.07.2026",
+      "links": [
+        {
+          "label": "avitotech.timepad.ru",
+          "url": "https://avitotech.timepad.ru/event/4041267/?utm_refcode=4a2d1695033257dfbc680678ce050e527391000d"
         }
       ]
     }
