@@ -1,6 +1,6 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-18T09:29:09Z",
+  "generated_at": "2026-07-18T16:05:28Z",
   "summary": {
     "books": 12,
     "courses": 16,
@@ -1241,8 +1241,8 @@ window.readingLogData = {
       "month": "July",
       "month_index": 6,
       "year": 2026,
-      "title": "AvitoTech meetup",
-      "meta": "AvitoTech event, Moscow",
+      "title": "AvitoTechno",
+      "meta": "AvitoTech IT rave at DK Kristall, Moscow",
       "date": "17.07.2026",
       "links": [
         {
