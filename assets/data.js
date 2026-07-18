@@ -1,10 +1,10 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-18T08:59:33Z",
+  "generated_at": "2026-07-18T09:29:09Z",
   "summary": {
-    "books": 11,
+    "books": 12,
     "courses": 16,
-    "events": 18,
+    "events": 23,
     "webinars": 35
   },
   "activities": [
@@ -1097,6 +1097,18 @@ window.readingLogData = {
       "month": "June",
       "month_index": 5,
       "year": 2026,
+      "title": "Civilization X5: From Stores Without Goods to Stores Without Sellers: How Perekrestok and Pyaterochka Changed Russian Retail",
+      "meta": "Nikita Aronov",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "books",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
       "title": "Steve Jobs",
       "meta": "Walter Isaacson",
       "date": null,
@@ -1166,6 +1178,66 @@ window.readingLogData = {
     },
     {
       "type": "events",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
+      "title": "Saint HighLoad++ 2026",
+      "meta": "High-load systems conference, online ticket",
+      "date": "22.06.2026 – 23.06.2026",
+      "links": [
+        {
+          "label": "highload.ru",
+          "url": "https://highload.ru/spb/2026"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
+      "title": "Saint TeamLead Conf 2026",
+      "meta": "Team leads and engineering managers conference, Saint Petersburg",
+      "date": "25.06.2026 – 26.06.2026",
+      "links": [
+        {
+          "label": "teamleadconf.ru",
+          "url": "https://teamleadconf.ru/spb/2026"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "DevOps Meetup 2026",
+      "meta": "43 Tech / Chestny ZNAK DevOps meetup about Kafka, Hadoop and Kubernetes virtualization, Saint Petersburg/online",
+      "date": "02.07.2026",
+      "links": [
+        {
+          "label": "career.crpt.ru",
+          "url": "https://career.crpt.ru/events/devops-meetup-2026"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "Agentic Dev Conf",
+      "meta": "Conference about the future of IT professions in the AI agents era, online ticket",
+      "date": "03.07.2026",
+      "links": [
+        {
+          "label": "agenticdevconf.ru",
+          "url": "https://agenticdevconf.ru/"
+        }
+      ]
+    },
+    {
+      "type": "events",
       "month": "July",
       "month_index": 6,
       "year": 2026,
@@ -1176,6 +1248,21 @@ window.readingLogData = {
         {
           "label": "avitotech.timepad.ru",
           "url": "https://avitotech.timepad.ru/event/4041267/?utm_refcode=4a2d1695033257dfbc680678ce050e527391000d"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "Turbo ML Conf",
+      "meta": "T-Bank ML and AI conference, Moscow, DK \"Serp i Molot\"",
+      "date": "18.07.2026",
+      "links": [
+        {
+          "label": "mlconf.t-bank.ai",
+          "url": "https://mlconf.t-bank.ai/"
         }
       ]
     }

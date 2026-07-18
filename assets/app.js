@@ -20,21 +20,23 @@ const typeCopy = {
 
 const state = {
   filter: "all",
-  query: ""
+  query: "",
+  monthFilter: null
 };
 
 const activityList = document.querySelector("#activityList");
 const emptyState = document.querySelector("#emptyState");
 const searchInput = document.querySelector("#searchInput");
 const filterButtons = document.querySelectorAll("[data-filter]");
+const monthChart = document.querySelector("#monthChart");
 
 function escapeHtml(value) {
   return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
 
 function setText(selector, value) {
@@ -44,6 +46,7 @@ function setText(selector, value) {
 function filteredActivities() {
   return data.activities.filter((activity) => {
     const matchesType = state.filter === "all" || activity.type === state.filter;
+    const matchesMonth = !state.monthFilter || activity.month === state.monthFilter;
     const haystack = [
       activity.title,
       activity.meta,
@@ -52,7 +55,7 @@ function filteredActivities() {
       ...activity.links.map((link) => link.label)
     ].join(" ").toLowerCase();
 
-    return matchesType && haystack.includes(state.query);
+    return matchesType && matchesMonth && haystack.includes(state.query);
   });
 }
 
@@ -83,19 +86,17 @@ function renderActivity(activity) {
 
 function renderTimeline() {
   const activities = filteredActivities();
-  const grouped = Map.groupBy
-    ? Map.groupBy(activities, (activity) => activity.month)
-    : activities.reduce((groups, activity) => {
-        const items = groups.get(activity.month) || [];
-        items.push(activity);
-        groups.set(activity.month, items);
-        return groups;
-      }, new Map());
+  const grouped = activities.reduce((groups, activity) => {
+    const items = groups.get(activity.month) || [];
+    items.push(activity);
+    groups.set(activity.month, items);
+    return groups;
+  }, new Map());
 
   activityList.innerHTML = monthNames
     .filter((month) => grouped.has(month))
     .map((month) => `
-      <section class="month-group">
+      <section class="month-group" id="month-${month.toLowerCase()}">
         <div class="month-label">
           <span>${month}</span>
           <small>${grouped.get(month).length}</small>
@@ -115,18 +116,36 @@ function renderChart() {
   );
   const max = Math.max(...totals, 1);
 
-  document.querySelector("#monthChart").innerHTML = totals.map((total, index) => `
-    <div class="chart-column" title="${monthNames[index]}: ${total}">
+  monthChart.innerHTML = totals.map((total, index) => {
+    const month = monthNames[index];
+    const active = state.monthFilter === month;
+    const activityLabel = `${total} activit${total === 1 ? "y" : "ies"}`;
+
+    return `
+    <button class="chart-column${active ? " is-active" : ""}" type="button" data-month-filter="${month}" aria-pressed="${active}" aria-label="${active ? "Clear" : "Show"} ${month} filter, ${activityLabel}" title="${month}: ${total}">
       <div class="chart-value">${total || ""}</div>
       <div class="chart-track">
         <span style="height: ${total ? Math.max(8, (total / max) * 100) : 3}%"></span>
       </div>
       <small>${shortMonths[index]}</small>
-    </div>
-  `).join("");
+    </button>
+  `;
+  }).join("");
 
   const active = totals.filter((total) => total > 0).length;
-  setText("#activeMonths", `Activity across ${active} month${active === 1 ? "" : "s"}`);
+  if (state.monthFilter) {
+    const selectedTotal = totals[monthNames.indexOf(state.monthFilter)] || 0;
+    setText("#activeMonths", `Showing ${state.monthFilter}: ${selectedTotal} activit${selectedTotal === 1 ? "y" : "ies"}`);
+  } else {
+    setText("#activeMonths", `Activity across ${active} month${active === 1 ? "" : "s"}`);
+  }
+}
+
+function scrollToTimeline() {
+  document.querySelector("#timeline").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
 }
 
 function initializeSummary() {
@@ -159,6 +178,19 @@ filterButtons.forEach((button) => {
     });
     renderTimeline();
   });
+});
+
+monthChart.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-month-filter]");
+  if (!button) return;
+
+  state.monthFilter = state.monthFilter === button.dataset.monthFilter
+    ? null
+    : button.dataset.monthFilter;
+
+  renderChart();
+  renderTimeline();
+  scrollToTimeline();
 });
 
 searchInput.addEventListener("input", (event) => {
