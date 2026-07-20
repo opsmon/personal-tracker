@@ -1,11 +1,11 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-18T16:05:28Z",
+  "generated_at": "2026-07-20T13:43:25Z",
   "summary": {
     "books": 12,
     "courses": 16,
     "events": 23,
-    "webinars": 35
+    "webinars": 36
   },
   "activities": [
     {
@@ -1233,6 +1233,21 @@ window.readingLogData = {
         {
           "label": "agenticdevconf.ru",
           "url": "https://agenticdevconf.ru/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "Infrastructure & Reliability Meetup от Спортса”",
+      "meta": "DevOps and SRE meetup about GitLab Runner security, ArgoCD, CDN architecture, and GPU in Kubernetes, online",
+      "date": "10.07.2026",
+      "links": [
+        {
+          "label": "dev-meetup.sports.ru",
+          "url": "https://dev-meetup.sports.ru/"
         }
       ]
     },
