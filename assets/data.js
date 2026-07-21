@@ -1,11 +1,11 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-21T14:20:25Z",
+  "generated_at": "2026-07-21T16:32:32Z",
   "summary": {
     "books": 13,
     "courses": 16,
     "events": 23,
-    "webinars": 36
+    "webinars": 37
   },
   "activities": [
     {
@@ -1290,6 +1290,21 @@ window.readingLogData = {
         {
           "label": "mlconf.t-bank.ai",
           "url": "https://mlconf.t-bank.ai/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "How to Teach AI to Sort Through Metrics While the On-Call Engineer Finishes Their Tea",
+      "meta": "Slurm evening AI school session for engineers, online",
+      "date": "21.07.2026",
+      "links": [
+        {
+          "label": "slurm.io",
+          "url": "https://slurm.io/ai-school"
         }
       ]
     }
