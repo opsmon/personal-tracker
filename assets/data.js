@@ -1,8 +1,8 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-20T13:43:25Z",
+  "generated_at": "2026-07-21T14:20:25Z",
   "summary": {
-    "books": 12,
+    "books": 13,
     "courses": 16,
     "events": 23,
     "webinars": 36
@@ -1207,6 +1207,18 @@ window.readingLogData = {
       ]
     },
     {
+      "type": "books",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
+      "meta": "Gene Kim, Kevin Behr, George Spafford",
+      "date": null,
+      "links": [
+
+      ]
+    },
+    {
       "type": "events",
       "month": "July",
       "month_index": 6,
@@ -1241,7 +1253,7 @@ window.readingLogData = {
       "month": "July",
       "month_index": 6,
       "year": 2026,
-      "title": "Infrastructure & Reliability Meetup от Спортса”",
+      "title": "Infrastructure & Reliability Meetup by Sports”",
       "meta": "DevOps and SRE meetup about GitLab Runner security, ArgoCD, CDN architecture, and GPU in Kubernetes, online",
       "date": "10.07.2026",
       "links": [
