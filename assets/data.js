@@ -1,11 +1,11 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-21T16:32:32Z",
+  "generated_at": "2026-07-21T17:32:38Z",
   "summary": {
     "books": 13,
     "courses": 16,
     "events": 23,
-    "webinars": 37
+    "webinars": 38
   },
   "activities": [
     {
@@ -1305,6 +1305,21 @@ window.readingLogData = {
         {
           "label": "slurm.io",
           "url": "https://slurm.io/ai-school"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "Introduction to Airflow 3: From Concepts to Working in Docker",
+      "meta": "HSE Big Data Analytics free online master class about Apache Airflow 3, ETL and Docker Compose",
+      "date": "21.07.2026",
+      "links": [
+        {
+          "label": "hse.ru",
+          "url": "https://www.hse.ru/ma/bigdata-analytics/announcements/1174757028.html"
         }
       ]
     }
