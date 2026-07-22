@@ -1,10 +1,10 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-23T08:36:35Z",
+  "generated_at": "2026-07-25T17:54:28Z",
   "summary": {
     "books": 13,
     "courses": 16,
-    "events": 23,
+    "events": 24,
     "webinars": 39
   },
   "activities": [
@@ -1335,6 +1335,21 @@ window.readingLogData = {
         {
           "label": "selectel.ru",
           "url": "https://selectel.ru/blog/events/how-to-grow/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "Selectel Day Off 2026",
+      "meta": "Selectel IT festival about collaboration with AI, Saint Petersburg",
+      "date": "25.07.2026",
+      "links": [
+        {
+          "label": "dayoff.selectel.ru",
+          "url": "https://dayoff.selectel.ru/"
         }
       ]
     }
