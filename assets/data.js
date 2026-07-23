@@ -1,11 +1,11 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-21T17:32:38Z",
+  "generated_at": "2026-07-23T08:36:35Z",
   "summary": {
     "books": 13,
     "courses": 16,
     "events": 23,
-    "webinars": 38
+    "webinars": 39
   },
   "activities": [
     {
@@ -1320,6 +1320,21 @@ window.readingLogData = {
         {
           "label": "hse.ru",
           "url": "https://www.hse.ru/ma/bigdata-analytics/announcements/1174757028.html"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "How to Launch and Scale AI in Your Own Environment",
+      "meta": "Selectel x Yandex Cloud x Metamentor webinar about on-premise AI infrastructure, online",
+      "date": "23.07.2026",
+      "links": [
+        {
+          "label": "selectel.ru",
+          "url": "https://selectel.ru/blog/events/how-to-grow/"
         }
       ]
     }
