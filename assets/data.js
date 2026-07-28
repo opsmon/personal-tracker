@@ -1,11 +1,11 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-28T15:51:30Z",
+  "generated_at": "2026-07-28T15:51:53Z",
   "summary": {
     "books": 13,
     "courses": 16,
     "events": 24,
-    "webinars": 40
+    "webinars": 41
   },
   "activities": [
     {
@@ -1365,6 +1365,21 @@ window.readingLogData = {
         {
           "label": "dayoff.selectel.ru",
           "url": "https://dayoff.selectel.ru/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "DevOps Engineer and AI Dive Headfirst Into Business Tasks",
+      "meta": "Slurm evening AI school session for engineers, online",
+      "date": "28.07.2026",
+      "links": [
+        {
+          "label": "slurm.io",
+          "url": "https://slurm.io/ai-school"
         }
       ]
     }
