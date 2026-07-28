@@ -1,11 +1,11 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-28T15:51:53Z",
+  "generated_at": "2026-07-28T15:55:41Z",
   "summary": {
     "books": 13,
     "courses": 16,
     "events": 24,
-    "webinars": 41
+    "webinars": 43
   },
   "activities": [
     {
@@ -1365,6 +1365,36 @@ window.readingLogData = {
         {
           "label": "dayoff.selectel.ru",
           "url": "https://dayoff.selectel.ru/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "AI Agents Security Week 2026 | Lecture 1. AI Security and Vulnerability Landscape",
+      "meta": "Yandex Education webinar about AI agent security, online",
+      "date": "27.07.2026",
+      "links": [
+        {
+          "label": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=O8hy7q6JGqI&t=2103s"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "AI Agents Security Week 2026 | Lecture 2. AI Agent Security: Assessment and Defense",
+      "meta": "Yandex Education webinar about AI agent security, online",
+      "date": "28.07.2026",
+      "links": [
+        {
+          "label": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=axJLEpDbAu4"
         }
       ]
     },
