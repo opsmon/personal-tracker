@@ -1,11 +1,11 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-25T17:54:28Z",
+  "generated_at": "2026-07-28T15:51:30Z",
   "summary": {
     "books": 13,
     "courses": 16,
     "events": 24,
-    "webinars": 39
+    "webinars": 40
   },
   "activities": [
     {
@@ -1335,6 +1335,21 @@ window.readingLogData = {
         {
           "label": "selectel.ru",
           "url": "https://selectel.ru/blog/events/how-to-grow/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "Production Issue Autofix with AI Without an Engineer",
+      "meta": "Slurm evening AI school session for engineers, online",
+      "date": "23.07.2026",
+      "links": [
+        {
+          "label": "slurm.io",
+          "url": "https://slurm.io/ai-school?&utm_source=youtube_video&utm_medium=stream"
         }
       ]
     },
