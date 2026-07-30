@@ -1,11 +1,11 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-31T15:26:22Z",
+  "generated_at": "2026-07-31T15:37:35Z",
   "summary": {
     "books": 13,
     "courses": 16,
     "events": 25,
-    "webinars": 43
+    "webinars": 46
   },
   "activities": [
     {
@@ -1414,6 +1414,36 @@ window.readingLogData = {
       ]
     },
     {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "AI Agents Security Week 2026 | Lecture 3.1. AI Agent Defense Architecture",
+      "meta": "Yandex Education webinar about AI agent security, online",
+      "date": "29.07.2026",
+      "links": [
+        {
+          "label": "shad.yandex.ru",
+          "url": "https://shad.yandex.ru/agentsecurityweek"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "AI Agents Security Week 2026 | Lecture 3.2. DevSecOps for AI",
+      "meta": "Yandex Education webinar about AI agent security, online",
+      "date": "29.07.2026",
+      "links": [
+        {
+          "label": "shad.yandex.ru",
+          "url": "https://shad.yandex.ru/agentsecurityweek"
+        }
+      ]
+    },
+    {
       "type": "events",
       "month": "July",
       "month_index": 6,
@@ -1425,6 +1455,21 @@ window.readingLogData = {
         {
           "label": "k8sday.ru",
           "url": "https://k8sday.ru/community_day"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "AI Agents Security Week 2026 | Lecture 4. Enterprise AI Agent Security",
+      "meta": "Yandex Education webinar about AI agent security, online",
+      "date": "30.07.2026",
+      "links": [
+        {
+          "label": "shad.yandex.ru",
+          "url": "https://shad.yandex.ru/agentsecurityweek"
         }
       ]
     }
