@@ -1,10 +1,10 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-28T15:55:41Z",
+  "generated_at": "2026-07-31T15:26:22Z",
   "summary": {
     "books": 13,
     "courses": 16,
-    "events": 24,
+    "events": 25,
     "webinars": 43
   },
   "activities": [
@@ -1410,6 +1410,21 @@ window.readingLogData = {
         {
           "label": "slurm.io",
           "url": "https://slurm.io/ai-school"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "Kuber Community Day",
+      "meta": "Kubernetes community conference, Moscow",
+      "date": "30.07.2026",
+      "links": [
+        {
+          "label": "k8sday.ru",
+          "url": "https://k8sday.ru/community_day"
         }
       ]
     }
