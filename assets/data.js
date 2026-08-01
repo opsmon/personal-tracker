@@ -1,10 +1,10 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-07-31T15:37:35Z",
+  "generated_at": "2026-08-01T07:56:24Z",
   "summary": {
     "books": 13,
     "courses": 16,
-    "events": 25,
+    "events": 26,
     "webinars": 46
   },
   "activities": [
@@ -1470,6 +1470,21 @@ window.readingLogData = {
         {
           "label": "shad.yandex.ru",
           "url": "https://shad.yandex.ru/agentsecurityweek"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "Back to Back 2026",
+      "meta": "Yandex backend conference, Moscow, C++ Zero Cost and Architecture & Performance tracks",
+      "date": "01.08.2026",
+      "links": [
+        {
+          "label": "backtobackconf.ru",
+          "url": "https://backtobackconf.ru/"
         }
       ]
     }
