@@ -1,10 +1,10 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-08-01T07:56:24Z",
+  "generated_at": "2026-08-01T21:05:13Z",
   "summary": {
     "books": 13,
     "courses": 16,
-    "events": 26,
+    "events": 27,
     "webinars": 46
   },
   "activities": [
@@ -1485,6 +1485,21 @@ window.readingLogData = {
         {
           "label": "backtobackconf.ru",
           "url": "https://backtobackconf.ru/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "Summer Urban ML",
+      "meta": "Open Data Science / comDS VTB and MTS True Tech ML meetup, Moscow, LOFT#4",
+      "date": "02.08.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/events/urban-ml-0208"
         }
       ]
     }
