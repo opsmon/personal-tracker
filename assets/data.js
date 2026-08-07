@@ -1,9 +1,9 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-08-01T21:05:13Z",
+  "generated_at": "2026-08-07T20:22:59Z",
   "summary": {
     "books": 13,
-    "courses": 16,
+    "courses": 17,
     "events": 27,
     "webinars": 46
   },
@@ -1500,6 +1500,21 @@ window.readingLogData = {
         {
           "label": "ods.ai",
           "url": "https://ods.ai/events/urban-ml-0208"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "Crash Course: Docker For Absolute Beginners",
+      "meta": "KodeKloud",
+      "date": "07.08.2026",
+      "links": [
+        {
+          "label": "learn.kodekloud.com",
+          "url": "https://learn.kodekloud.com/learn/certificate/843ef9e6-904a-442c-8ade-6b873fa03361"
         }
       ]
     }
