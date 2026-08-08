@@ -1,10 +1,10 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-08-07T20:22:59Z",
+  "generated_at": "2026-08-08T17:52:32Z",
   "summary": {
     "books": 13,
-    "courses": 17,
-    "events": 27,
+    "courses": 19,
+    "events": 28,
     "webinars": 46
   },
   "activities": [
@@ -1515,6 +1515,51 @@ window.readingLogData = {
         {
           "label": "learn.kodekloud.com",
           "url": "https://learn.kodekloud.com/learn/certificate/843ef9e6-904a-442c-8ade-6b873fa03361"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "LFS157: Introduction to Serverless on Kubernetes",
+      "meta": "The Linux Foundation",
+      "date": "08.08.2026",
+      "links": [
+        {
+          "label": "credly.com",
+          "url": "https://www.credly.com/badges/dcbd1bcd-5f7f-4b79-a352-07e32c2d39e8/public_url"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "LFS180: Introduction to DevSecOps for Managers",
+      "meta": "The Linux Foundation",
+      "date": "08.08.2026",
+      "links": [
+        {
+          "label": "credly.com",
+          "url": "https://www.credly.com/badges/b30dc721-3a4f-4637-84eb-9a681c08faf9/public_url"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "IT Picnic 2026",
+      "meta": "T-Bank, CodeFest and Melnitsa summer IT festival for IT specialists and their families, Moscow, Kolomenskoye",
+      "date": "08.08.2026",
+      "links": [
+        {
+          "label": "it-picnic.ru",
+          "url": "https://it-picnic.ru/"
         }
       ]
     }
