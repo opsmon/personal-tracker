@@ -1,6 +1,6 @@
-window.readingLogData = {
+{
   "year": 2026,
-  "generated_at": "2026-08-12T16:29:39Z",
+  "generated_at": "2026-08-12T16:38:37Z",
   "summary": {
     "books": 13,
     "courses": 20,
@@ -1609,4 +1609,4 @@ window.readingLogData = {
       ]
     }
   ]
-};
+}

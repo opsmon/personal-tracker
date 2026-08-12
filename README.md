@@ -12,10 +12,11 @@ GitHub Actions rebuilds the site from the Markdown logs after every push to
 
 ```bash
 ruby scripts/build_data.rb
-python3 -m http.server 8000
+npm install
+npm run dev
 ```
 
-Then open <http://localhost:8000/>.
+Then open the local URL printed by Vite.
 
 ## Structure
 
