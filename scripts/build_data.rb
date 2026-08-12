@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require "json"
+require "fileutils"
 
 MONTHS = %w[
   January February March April May June
@@ -106,9 +107,7 @@ payload = {
   activities: activities
 }
 
-File.write(
-  "assets/data.js",
-  "window.readingLogData = #{JSON.pretty_generate(payload)};\n"
-)
+FileUtils.mkdir_p("src")
+File.write("src/data.json", "#{JSON.pretty_generate(payload)}\n")
 
-puts "Generated #{activities.size} activities in assets/data.js"
+puts "Generated #{activities.size} activities in src/data.json"
