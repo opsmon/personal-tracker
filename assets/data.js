@@ -1,11 +1,11 @@
 window.readingLogData = {
   "year": 2026,
-  "generated_at": "2026-08-08T17:52:32Z",
+  "generated_at": "2026-08-12T16:29:39Z",
   "summary": {
     "books": 13,
-    "courses": 19,
+    "courses": 20,
     "events": 28,
-    "webinars": 46
+    "webinars": 48
   },
   "activities": [
     {
@@ -1474,6 +1474,21 @@ window.readingLogData = {
       ]
     },
     {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "AI Agents Security Week 2026 | Lecture 5. Breaking the Guardrails",
+      "meta": "Yandex Education webinar about AI agent security, online",
+      "date": "31.07.2026",
+      "links": [
+        {
+          "label": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=eq5DQ_7hc3s"
+        }
+      ]
+    },
+    {
       "type": "events",
       "month": "August",
       "month_index": 7,
@@ -1525,7 +1540,7 @@ window.readingLogData = {
       "year": 2026,
       "title": "LFS157: Introduction to Serverless on Kubernetes",
       "meta": "The Linux Foundation",
-      "date": "08.08.2026",
+      "date": "07.08.2026",
       "links": [
         {
           "label": "credly.com",
@@ -1540,11 +1555,26 @@ window.readingLogData = {
       "year": 2026,
       "title": "LFS180: Introduction to DevSecOps for Managers",
       "meta": "The Linux Foundation",
-      "date": "08.08.2026",
+      "date": "07.08.2026",
       "links": [
         {
           "label": "credly.com",
           "url": "https://www.credly.com/badges/b30dc721-3a4f-4637-84eb-9a681c08faf9/public_url"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "AI and Generative Models",
+      "meta": "ANO DPO T-Education — score 109, credential ID ACJF7NZG1DKD",
+      "date": "08.08.2026",
+      "links": [
+        {
+          "label": "linkedin.com",
+          "url": "https://www.linkedin.com/in/opsmon/overlay/Certifications/1656386809/treasury/?profileId=ACoAAE5t6VsBApdJ3H2V7jcrzQiApttyi3lBALQ"
         }
       ]
     },
@@ -1560,6 +1590,21 @@ window.readingLogData = {
         {
           "label": "it-picnic.ru",
           "url": "https://it-picnic.ru/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "LLM Prototyping: How to Create Your Own AI Agent",
+      "meta": "karpov.courses webinar about LLM prototyping and AI agents, online",
+      "date": "12.08.2026",
+      "links": [
+        {
+          "label": "youtube.com",
+          "url": "https://www.youtube.com/live/c7a6nQxzPLw"
         }
       ]
     }
