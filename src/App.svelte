@@ -39,6 +39,10 @@
 
     return matchesType && matchesMonth && haystack.includes(normalizedQuery);
   });
+  $: activitiesByMonth = monthNames.reduce((groups, month) => {
+    groups[month] = filteredActivities.filter((activity) => activity.month === month);
+    return groups;
+  }, {});
   $: monthTotals = monthNames.map((month) =>
     data.activities.filter((activity) => activity.month === month).length
   );
@@ -51,10 +55,6 @@
   function pluralize(word, count) {
     if (word === "activity") return count === 1 ? "activity" : "activities";
     return count === 1 ? word : `${word}s`;
-  }
-
-  function groupedByMonth(month) {
-    return filteredActivities.filter((activity) => activity.month === month);
   }
 
   function badgeFor(filterName) {
@@ -192,7 +192,7 @@
 
     <div class="timeline" aria-live="polite">
       {#each monthNames as month}
-        {@const activities = groupedByMonth(month)}
+        {@const activities = activitiesByMonth[month]}
         {#if activities.length}
           <section class="month-group" id="month-{month.toLowerCase()}">
             <div class="month-label">
