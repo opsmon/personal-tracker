@@ -1,11 +1,11 @@
 {
   "year": 2026,
-  "generated_at": "2026-08-12T16:38:37Z",
+  "generated_at": "2026-08-14T10:46:22Z",
   "summary": {
     "books": 13,
     "courses": 20,
     "events": 28,
-    "webinars": 48
+    "webinars": 49
   },
   "activities": [
     {
@@ -1605,6 +1605,21 @@
         {
           "label": "youtube.com",
           "url": "https://www.youtube.com/live/c7a6nQxzPLw"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "AI in Development: How to Move from Experiments to Systemic Results with AI-native SDLC",
+      "meta": "Express 42 webinar about integrating AI across the software development lifecycle, online",
+      "date": "14.08.2026",
+      "links": [
+        {
+          "label": "express42.com",
+          "url": "https://express42.com/webinars/ai-native-sdlc/"
         }
       ]
     }
