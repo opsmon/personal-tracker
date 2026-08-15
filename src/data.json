@@ -1,10 +1,10 @@
 {
   "year": 2026,
-  "generated_at": "2026-08-14T10:46:22Z",
+  "generated_at": "2026-08-15T09:37:41Z",
   "summary": {
     "books": 13,
     "courses": 20,
-    "events": 28,
+    "events": 29,
     "webinars": 49
   },
   "activities": [
@@ -1620,6 +1620,21 @@
         {
           "label": "express42.com",
           "url": "https://express42.com/webinars/ai-native-sdlc/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "DKT Conference",
+      "meta": "DevOps Kitchen Talks community conference, offline",
+      "date": "15.08.2026",
+      "links": [
+        {
+          "label": "dk-t.dev",
+          "url": "https://dk-t.dev/"
         }
       ]
     }
