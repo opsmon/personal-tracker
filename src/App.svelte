@@ -159,6 +159,35 @@
     </div>
   </section>
 
+  <section class="glossary" aria-labelledby="glossary-title">
+    <div class="section-heading">
+      <div>
+        <p class="section-kicker">Glossary / Глоссарий</p>
+        <h2 id="glossary-title">What counts as a course.</h2>
+      </div>
+    </div>
+    <div class="glossary-grid">
+      <article>
+        <h3>Courses</h3>
+        <p>
+          All learning programs I complete or intentionally work through:
+          personal growth, refreshing fundamentals, testing educational
+          materials at people's request, evaluating platforms, and keeping
+          practical skills current.
+        </p>
+      </article>
+      <article lang="ru">
+        <h3>Курсы</h3>
+        <p>
+          Все учебные программы, которые я прохожу или осознанно разбираю:
+          для личного развития, чтобы вспомнить базовые вещи, протестировать
+          учебные материалы по просьбам людей, оценить платформы и поддерживать
+          практические навыки в актуальном состоянии.
+        </p>
+      </article>
+    </div>
+  </section>
+
   <section class="timeline-section" id="timeline" aria-labelledby="timeline-title">
     <div class="section-heading timeline-heading">
       <div>
@@ -526,6 +555,7 @@ h1 span {
 }
 
 .pulse,
+.glossary,
 .timeline-section {
   padding: 95px 0 20px;
 }
@@ -627,6 +657,37 @@ h1 span {
 
 .timeline-section {
   padding-bottom: 110px;
+}
+
+.glossary {
+  padding-top: 85px;
+}
+
+.glossary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.glossary-grid article {
+  min-height: 170px;
+  padding: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.055);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+
+.glossary-grid h3 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+.glossary-grid p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .timeline-heading {
@@ -922,6 +983,10 @@ footer a:hover {
 
   .timeline-heading .search {
     width: 100%;
+  }
+
+  .glossary-grid {
+    grid-template-columns: 1fr;
   }
 
   .month-group {
