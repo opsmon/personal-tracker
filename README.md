@@ -29,6 +29,13 @@ This repository is organized by activity type:
 
 Each category contains yearly markdown files tracking activities by month.
 
+## Glossary
+
+**Courses** means all learning programs I complete or intentionally work
+through: for personal growth, refreshing fundamentals, testing educational
+materials at people's request, evaluating platforms, or keeping practical
+skills current.
+
 ## Publishing
 
 For the first deployment, open `Settings` → `Pages` in the GitHub repository
