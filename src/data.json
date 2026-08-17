@@ -1,11 +1,20 @@
 {
   "year": 2026,
+<<<<<<< HEAD
   "generated_at": "2026-08-16T16:51:24Z",
   "summary": {
     "books": 13,
     "courses": 20,
     "events": 28,
     "webinars": 52
+=======
+  "generated_at": "2026-08-16T11:19:35Z",
+  "summary": {
+    "books": 13,
+    "courses": 22,
+    "events": 30,
+    "webinars": 49
+>>>>>>> refs/remotes/origin/main
   },
   "activities": [
     {
@@ -1279,6 +1288,21 @@
       ]
     },
     {
+      "type": "courses",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "Fast Start in Podman",
+      "meta": "Selectel course, 9 materials, 1h 45m",
+      "date": "10.07.2026",
+      "links": [
+        {
+          "label": "selectel.ru",
+          "url": "https://selectel.ru/blog/courses/fast-start-podman/"
+        }
+      ]
+    },
+    {
       "type": "webinars",
       "month": "July",
       "month_index": 6,
@@ -1665,6 +1689,66 @@
         {
           "label": "youtube.com",
           "url": "https://www.youtube.com/live/c7a6nQxzPLw"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "SRE Lectorium",
+      "meta": "T-Education / T-Bank, video course on SRE",
+      "date": "14.08.2026",
+      "links": [
+        {
+          "label": "education.tbank.ru",
+          "url": "https://education.tbank.ru/academy/sre_lectorium/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "RULKC Meetup #3",
+      "meta": "Linux kernel meetup with LANDAU project updates, eBPF networking hooks, and upstream-first talks, Moscow",
+      "date": "14.08.2026",
+      "links": [
+        {
+          "label": "rulkc.timepad.ru",
+          "url": "https://rulkc.timepad.ru/event/4092753/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "AI in Development: How to Move from Experiments to Systemic Results with AI-native SDLC",
+      "meta": "Express 42 webinar about integrating AI across the software development lifecycle, online",
+      "date": "14.08.2026",
+      "links": [
+        {
+          "label": "express42.com",
+          "url": "https://express42.com/webinars/ai-native-sdlc/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "DKT Conference",
+      "meta": "DevOps Kitchen Talks community conference, offline",
+      "date": "15.08.2026",
+      "links": [
+        {
+          "label": "dk-t.dev",
+          "url": "https://dk-t.dev/"
         }
       ]
     }
