@@ -1,11 +1,11 @@
 {
   "year": 2026,
-  "generated_at": "2026-08-12T16:38:37Z",
+  "generated_at": "2026-08-16T16:51:24Z",
   "summary": {
     "books": 13,
     "courses": 20,
     "events": 28,
-    "webinars": 48
+    "webinars": 52
   },
   "activities": [
     {
@@ -1177,6 +1177,36 @@
       ]
     },
     {
+      "type": "webinars",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
+      "title": "LeanAI | Data Fest 2026",
+      "meta": "Open Data Science / Lemana Tech track about corporate LLM gateways, SQL agents, AI4SDLC productivity, and AI in retail",
+      "date": "13.06.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/tracks/df26-leanai"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "June",
+      "month_index": 5,
+      "year": 2026,
+      "title": "ML in Marketplace | Data Fest 2026",
+      "meta": "Open Data Science / AvitoTech track about LLMs, sales AI assistants, moderation, monetization models, and recommendations",
+      "date": "18.06.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/tracks/df26_mlavitotech"
+        }
+      ]
+    },
+    {
       "type": "events",
       "month": "June",
       "month_index": 5,
@@ -1260,6 +1290,36 @@
         {
           "label": "dev-meetup.sports.ru",
           "url": "https://dev-meetup.sports.ru/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "MLOps | Data Fest 2026",
+      "meta": "Open Data Science track about production ML, automation, scalability, reproducibility, and ML systems engineering",
+      "date": "14.07.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/tracks/df26-mlops"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "July",
+      "month_index": 6,
+      "year": 2026,
+      "title": "Data and ML in Retail | Data Fest 2026",
+      "meta": "Open Data Science / X5 Tech track about ML in retail, data platforms, A/B automation, RAG systems, and MLOps",
+      "date": "16.07.2026",
+      "links": [
+        {
+          "label": "ods.ai",
+          "url": "https://ods.ai/tracks/df26-ml-in-retail"
         }
       ]
     },
