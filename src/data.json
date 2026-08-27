@@ -1,10 +1,10 @@
 {
   "year": 2026,
-  "generated_at": "2026-08-17T16:04:35Z",
+  "generated_at": "2026-08-27T17:39:31Z",
   "summary": {
     "books": 13,
     "courses": 23,
-    "events": 30,
+    "events": 32,
     "webinars": 53
   },
   "activities": [
@@ -1755,6 +1755,36 @@
         {
           "label": "learn.kodekloud.com",
           "url": "https://learn.kodekloud.com/learn/certificate/078fd7c6-168b-453a-9c1c-4cecd6d770fe"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "Cloud Sessions by VK Tech",
+      "meta": "VK Tech cloud infrastructure meetup about eBPF scheduling, capacity planning, and AI in development, Moscow + online",
+      "date": "27.08.2026",
+      "links": [
+        {
+          "label": "cloud.vk.ru",
+          "url": "https://cloud.vk.ru/events/cloud-sessions-ot-vk-tech/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "MWS Meetup #8",
+      "meta": "MTS Web Services DevOps and SRE meetup about monitoring AI applications, private operator catalogs, support AI agents, and AI-native engineering skills, Moscow + online",
+      "date": "27.08.2026",
+      "links": [
+        {
+          "label": "tech.mts.ru",
+          "url": "https://tech.mts.ru/events/details?id=94929102"
         }
       ]
     }
