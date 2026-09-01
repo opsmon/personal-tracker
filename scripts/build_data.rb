@@ -42,6 +42,7 @@ def parse_entry(type, line, month, year)
   if type == "books"
     title, separator, author = raw.rpartition(" - ")
     title = raw if separator.empty?
+    title = title.sub(/\s*\(#{Regexp.escape(date)}\)/, "") if date
 
     return {
       type: type,
@@ -50,7 +51,7 @@ def parse_entry(type, line, month, year)
       year: year,
       title: clean_text(title),
       meta: separator.empty? ? "" : clean_text(author),
-      date: nil,
+      date: date,
       links: links
     }
   end

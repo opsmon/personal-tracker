@@ -1,8 +1,8 @@
 {
   "year": 2026,
-  "generated_at": "2026-09-02T18:48:32Z",
+  "generated_at": "2026-09-03T17:18:02Z",
   "summary": {
-    "books": 14,
+    "books": 15,
     "courses": 23,
     "events": 32,
     "webinars": 53
@@ -1796,6 +1796,18 @@
       "title": "The Hundred-Page Machine Learning Book",
       "meta": "Andriy Burkov",
       "date": null,
+      "links": [
+
+      ]
+    },
+    {
+      "type": "books",
+      "month": "September",
+      "month_index": 8,
+      "year": 2026,
+      "title": "Who Moved My Cheese?",
+      "meta": "Spencer Johnson",
+      "date": "01.09.2026",
       "links": [
 
       ]
