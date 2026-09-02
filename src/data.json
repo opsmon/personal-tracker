@@ -1,8 +1,8 @@
 {
   "year": 2026,
-  "generated_at": "2026-08-27T17:39:31Z",
+  "generated_at": "2026-09-02T18:48:32Z",
   "summary": {
-    "books": 13,
+    "books": 14,
     "courses": 23,
     "events": 32,
     "webinars": 53
@@ -1786,6 +1786,18 @@
           "label": "tech.mts.ru",
           "url": "https://tech.mts.ru/events/details?id=94929102"
         }
+      ]
+    },
+    {
+      "type": "books",
+      "month": "September",
+      "month_index": 8,
+      "year": 2026,
+      "title": "The Hundred-Page Machine Learning Book",
+      "meta": "Andriy Burkov",
+      "date": null,
+      "links": [
+
       ]
     }
   ]
