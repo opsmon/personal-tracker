@@ -1,11 +1,11 @@
 {
   "year": 2026,
-  "generated_at": "2026-09-03T17:18:02Z",
+  "generated_at": "2026-09-05T14:27:05Z",
   "summary": {
     "books": 15,
     "courses": 23,
     "events": 32,
-    "webinars": 53
+    "webinars": 54
   },
   "activities": [
     {
@@ -1810,6 +1810,21 @@
       "date": "01.09.2026",
       "links": [
 
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "September",
+      "month_index": 8,
+      "year": 2026,
+      "title": "Deep Tech Night",
+      "meta": "Yandex conference about AI infrastructure, agents, and software development, online",
+      "date": "05.09.2026",
+      "links": [
+        {
+          "label": "deeptechnight.ru",
+          "url": "https://deeptechnight.ru/"
+        }
       ]
     }
   ]
