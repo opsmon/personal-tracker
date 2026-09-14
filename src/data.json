@@ -1,10 +1,10 @@
 {
   "year": 2026,
-  "generated_at": "2026-09-11T08:29:37Z",
+  "generated_at": "2026-09-14T16:38:45Z",
   "summary": {
     "books": 15,
     "courses": 23,
-    "events": 33,
+    "events": 34,
     "webinars": 55
   },
   "activities": [
@@ -1854,6 +1854,21 @@
         {
           "label": "youtube.com",
           "url": "https://www.youtube.com/live/iZ7jz-JadFo"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "September",
+      "month_index": 8,
+      "year": 2026,
+      "title": "E-CODE 2026",
+      "meta": "Ozon Tech IT conference on backend development, infrastructure, mobile development, cybersecurity, ML/DS, test automation, robotics, and science, Moscow, LOFT #8",
+      "date": "12.09.2026 – 13.09.2026",
+      "links": [
+        {
+          "label": "ecode.ozon.tech",
+          "url": "https://ecode.ozon.tech/"
         }
       ]
     }
