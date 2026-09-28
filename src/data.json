@@ -1,8 +1,8 @@
 {
   "year": 2026,
-  "generated_at": "2026-09-14T16:38:45Z",
+  "generated_at": "2026-09-28T16:21:37Z",
   "summary": {
-    "books": 15,
+    "books": 16,
     "courses": 23,
     "events": 34,
     "webinars": 55
@@ -1561,6 +1561,18 @@
           "label": "youtube.com",
           "url": "https://www.youtube.com/watch?v=eq5DQ_7hc3s"
         }
+      ]
+    },
+    {
+      "type": "books",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+      "meta": "Mark Manson",
+      "date": null,
+      "links": [
+
       ]
     },
     {
