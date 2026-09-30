@@ -1,9 +1,9 @@
 {
   "year": 2026,
-  "generated_at": "2026-09-28T16:21:37Z",
+  "generated_at": "2026-09-30T17:06:50Z",
   "summary": {
     "books": 16,
-    "courses": 23,
+    "courses": 25,
     "events": 34,
     "webinars": 55
   },
@@ -1573,6 +1573,36 @@
       "date": null,
       "links": [
 
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "A Pragmatic Approach to Public Speaking",
+      "meta": "X5",
+      "date": null,
+      "links": [
+        {
+          "label": "certificate",
+          "url": "certificates/2026/X5_Certificate_Frolov_EN.pdf"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "August",
+      "month_index": 7,
+      "year": 2026,
+      "title": "Linux System Administration from Scratch",
+      "meta": "Selectel Academy",
+      "date": null,
+      "links": [
+        {
+          "label": "certificate",
+          "url": "certificates/2026/Selectel_Certificate_Sergey_Frolov_EN.pdf"
+        }
       ]
     },
     {
