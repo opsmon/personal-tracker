@@ -1,10 +1,10 @@
 {
   "year": 2026,
-  "generated_at": "2026-09-30T17:06:50Z",
+  "generated_at": "2026-10-04T08:32:52Z",
   "summary": {
     "books": 16,
     "courses": 25,
-    "events": 34,
+    "events": 35,
     "webinars": 55
   },
   "activities": [
@@ -1911,6 +1911,21 @@
         {
           "label": "ecode.ozon.tech",
           "url": "https://ecode.ozon.tech/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "Infra x Security",
+      "meta": "RWB (Wildberries & Russ) infrastructure and information security meetup, Moscow",
+      "date": "03.10.2026",
+      "links": [
+        {
+          "label": "meetup.rwb.ru",
+          "url": "https://meetup.rwb.ru/events/infra-security"
         }
       ]
     }
