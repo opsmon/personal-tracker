@@ -1,10 +1,10 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-04T08:32:52Z",
+  "generated_at": "2026-10-10T21:01:56Z",
   "summary": {
     "books": 16,
     "courses": 25,
-    "events": 35,
+    "events": 36,
     "webinars": 55
   },
   "activities": [
@@ -1926,6 +1926,21 @@
         {
           "label": "meetup.rwb.ru",
           "url": "https://meetup.rwb.ru/events/infra-security"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "Selectel Tech Day 2026",
+      "meta": "Selectel business and technology conference on AI, infrastructure, security, and data, Moscow",
+      "date": "08.10.2026",
+      "links": [
+        {
+          "label": "techday.selectel.ru",
+          "url": "https://techday.selectel.ru/"
         }
       ]
     }
