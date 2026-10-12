@@ -1,10 +1,10 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-10T21:01:56Z",
+  "generated_at": "2026-10-15T07:37:43Z",
   "summary": {
     "books": 16,
     "courses": 25,
-    "events": 36,
+    "events": 37,
     "webinars": 55
   },
   "activities": [
@@ -1580,8 +1580,8 @@
       "month": "August",
       "month_index": 7,
       "year": 2026,
-      "title": "A Pragmatic Approach to Public Speaking",
-      "meta": "X5",
+      "title": "A Pragmatic Approach to Public Speaking - X5",
+      "meta": "",
       "date": null,
       "links": [
         {
@@ -1595,8 +1595,8 @@
       "month": "August",
       "month_index": 7,
       "year": 2026,
-      "title": "Linux System Administration from Scratch",
-      "meta": "Selectel Academy",
+      "title": "Linux System Administration from Scratch - Selectel Academy",
+      "meta": "",
       "date": null,
       "links": [
         {
@@ -1941,6 +1941,21 @@
         {
           "label": "techday.selectel.ru",
           "url": "https://techday.selectel.ru/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "DevOops 2026",
+      "meta": "Engineering and DevOps conference, Saint Petersburg — member",
+      "date": "12.10.2026",
+      "links": [
+        {
+          "label": "devoops.ru",
+          "url": "https://devoops.ru/"
         }
       ]
     }
