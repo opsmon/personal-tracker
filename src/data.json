@@ -4,7 +4,7 @@
   "summary": {
     "books": 16,
     "courses": 25,
-    "events": 37,
+    "events": 38,
     "webinars": 55
   },
   "activities": [
@@ -1956,6 +1956,21 @@
         {
           "label": "devoops.ru",
           "url": "https://devoops.ru/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "DevOops 2026",
+      "meta": "Engineering and DevOps conference, Saint Petersburg — speaker: \"Infrastructure Nomads: Making Migrations Boring\"",
+      "date": "13.10.2026",
+      "links": [
+        {
+          "label": "talk",
+          "url": "https://devoops.ru/talks/20010666-infrastructure-nomads-making-migrations-boring/"
         }
       ]
     }
