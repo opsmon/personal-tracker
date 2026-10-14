@@ -4,7 +4,7 @@
   "summary": {
     "books": 16,
     "courses": 25,
-    "events": 38,
+    "events": 39,
     "webinars": 55
   },
   "activities": [
@@ -1971,6 +1971,21 @@
         {
           "label": "talk",
           "url": "https://devoops.ru/talks/20010666-infrastructure-nomads-making-migrations-boring/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "Joker 2026",
+      "meta": "Conference on Java, AI agents and software development, Saint Petersburg — member",
+      "date": "14.10.2026",
+      "links": [
+        {
+          "label": "jokerconf.com",
+          "url": "https://jokerconf.com/en/"
         }
       ]
     }
