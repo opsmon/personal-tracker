@@ -1580,8 +1580,8 @@
       "month": "August",
       "month_index": 7,
       "year": 2026,
-      "title": "A Pragmatic Approach to Public Speaking - X5",
-      "meta": "",
+      "title": "A Pragmatic Approach to Public Speaking",
+      "meta": "X5",
       "date": null,
       "links": [
         {
@@ -1595,8 +1595,8 @@
       "month": "August",
       "month_index": 7,
       "year": 2026,
-      "title": "Linux System Administration from Scratch - Selectel Academy",
-      "meta": "",
+      "title": "Linux System Administration from Scratch",
+      "meta": "Selectel Academy",
       "date": null,
       "links": [
         {
@@ -1981,7 +1981,7 @@
       "year": 2026,
       "title": "Joker 2026",
       "meta": "Conference on Java, AI agents and software development, Saint Petersburg — member",
-      "date": "14.10.2026",
+      "date": "14.10.2026 – 15.10.2026",
       "links": [
         {
           "label": "jokerconf.com",
