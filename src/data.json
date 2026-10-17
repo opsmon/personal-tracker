@@ -1,10 +1,10 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-15T07:37:43Z",
+  "generated_at": "2026-10-17T09:12:02Z",
   "summary": {
     "books": 16,
     "courses": 25,
-    "events": 39,
+    "events": 41,
     "webinars": 55
   },
   "activities": [
@@ -1986,6 +1986,36 @@
         {
           "label": "jokerconf.com",
           "url": "https://jokerconf.com/en/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "GoCloud Tech 2026",
+      "meta": "Cloud.ru conference on infrastructure, software development, data platforms, and AI",
+      "date": "15.10.2026",
+      "links": [
+        {
+          "label": "cloud.ru",
+          "url": "https://cloud.ru/gocloud/tech-2026"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "Heisenbug 2026 Autumn",
+      "meta": "QA and software testing conference, Saint Petersburg",
+      "date": "16.10.2026 – 17.10.2026",
+      "links": [
+        {
+          "label": "heisenbug.ru",
+          "url": "https://heisenbug.ru/"
         }
       ]
     }
