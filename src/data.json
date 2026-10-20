@@ -1,11 +1,11 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-17T09:12:02Z",
+  "generated_at": "2026-10-22T08:20:00Z",
   "summary": {
     "books": 16,
     "courses": 25,
     "events": 41,
-    "webinars": 55
+    "webinars": 56
   },
   "activities": [
     {
@@ -2016,6 +2016,21 @@
         {
           "label": "heisenbug.ru",
           "url": "https://heisenbug.ru/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "Network Non-Replicated Disks in the Cloud: Built for Speed",
+      "meta": "K2 Cloud online meetup about non-replicated NVMe disks, performance, and handling failures",
+      "date": "20.10.2026",
+      "links": [
+        {
+          "label": "k2.cloud",
+          "url": "https://k2.cloud/events/setevye-nerepliciruemye-diski-v-oblake-stavka-na-skorost/"
         }
       ]
     }
