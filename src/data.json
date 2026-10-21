@@ -5,7 +5,7 @@
     "books": 16,
     "courses": 25,
     "events": 41,
-    "webinars": 57
+    "webinars": 58
   },
   "activities": [
     {
@@ -2046,6 +2046,21 @@
         {
           "label": "mws.ru",
           "url": "https://mws.ru/events/tech-webinar20102026/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "T-Bank SRE TechTalk",
+      "meta": "T-Bank online meetup about reliability practices, business-operation monitoring, alerting, and on-call automation",
+      "date": "21.10.2026",
+      "links": [
+        {
+          "label": "meetup.tbank-online.com",
+          "url": "https://meetup.tbank-online.com/conference/sre-techtalk/"
         }
       ]
     }
