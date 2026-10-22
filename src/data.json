@@ -1,11 +1,11 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-22T08:20:00Z",
+  "generated_at": "2026-10-22T08:20:01Z",
   "summary": {
     "books": 16,
     "courses": 25,
     "events": 41,
-    "webinars": 58
+    "webinars": 59
   },
   "activities": [
     {
@@ -2061,6 +2061,21 @@
         {
           "label": "meetup.tbank-online.com",
           "url": "https://meetup.tbank-online.com/conference/sre-techtalk/"
+        }
+      ]
+    },
+    {
+      "type": "webinars",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "Verified — Access Granted: New Features in BI.ZONE ZTNA",
+      "meta": "BI.ZONE webinar about zero-trust remote access, authentication, infrastructure support, and access management, online",
+      "date": "22.10.2026",
+      "links": [
+        {
+          "label": "bi.zone",
+          "url": "https://bi.zone/expertise/events/provereno-dostup-razreshen-novye-vozmozhnosti-bi-zone-ztna/"
         }
       ]
     }
