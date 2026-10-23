@@ -1,10 +1,10 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-22T08:20:01Z",
+  "generated_at": "2026-10-23T11:45:49Z",
   "summary": {
     "books": 16,
     "courses": 25,
-    "events": 41,
+    "events": 42,
     "webinars": 59
   },
   "activities": [
@@ -2076,6 +2076,21 @@
         {
           "label": "bi.zone",
           "url": "https://bi.zone/expertise/events/provereno-dostup-razreshen-novye-vozmozhnosti-bi-zone-ztna/"
+        }
+      ]
+    },
+    {
+      "type": "events",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "HolyJS 2026 Autumn",
+      "meta": "JavaScript conference on frontend and backend development, Saint Petersburg",
+      "date": "23.10.2026 – 24.10.2026",
+      "links": [
+        {
+          "label": "holyjs.ru",
+          "url": "https://holyjs.ru/"
         }
       ]
     }
