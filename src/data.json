@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-24T15:33:39Z",
+  "generated_at": "2026-10-24T15:45:55Z",
   "summary": {
     "books": 16,
     "courses": 26,
@@ -2074,7 +2074,11 @@
       "date": "22.10.2026",
       "links": [
         {
-          "label": "certificate",
+          "label": "certificate (English)",
+          "url": "certificates/2026/ML_in_production_Frolov_Sergey_EN.pdf"
+        },
+        {
+          "label": "original (Russian)",
           "url": "certificates/2026/ML_in_production_Frolov_Sergey.pdf"
         }
       ]
