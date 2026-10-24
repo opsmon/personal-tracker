@@ -1,9 +1,9 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-23T11:45:49Z",
+  "generated_at": "2026-10-24T15:45:55Z",
   "summary": {
     "books": 16,
-    "courses": 25,
+    "courses": 26,
     "events": 42,
     "webinars": 59
   },
@@ -1580,8 +1580,8 @@
       "month": "August",
       "month_index": 7,
       "year": 2026,
-      "title": "A Pragmatic Approach to Public Speaking",
-      "meta": "X5",
+      "title": "A Pragmatic Approach to Public Speaking - X5",
+      "meta": "",
       "date": null,
       "links": [
         {
@@ -1595,8 +1595,8 @@
       "month": "August",
       "month_index": 7,
       "year": 2026,
-      "title": "Linux System Administration from Scratch",
-      "meta": "Selectel Academy",
+      "title": "Linux System Administration from Scratch - Selectel Academy",
+      "meta": "",
       "date": null,
       "links": [
         {
@@ -2061,6 +2061,25 @@
         {
           "label": "meetup.tbank-online.com",
           "url": "https://meetup.tbank-online.com/conference/sre-techtalk/"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "ML in production",
+      "meta": "Cloud.ru, certificate No. 7616",
+      "date": "22.10.2026",
+      "links": [
+        {
+          "label": "certificate (English)",
+          "url": "certificates/2026/ML_in_production_Frolov_Sergey_EN.pdf"
+        },
+        {
+          "label": "original (Russian)",
+          "url": "certificates/2026/ML_in_production_Frolov_Sergey.pdf"
         }
       ]
     },
