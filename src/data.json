@@ -1,9 +1,9 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-24T15:45:55Z",
+  "generated_at": "2026-10-25T09:15:23Z",
   "summary": {
     "books": 16,
-    "courses": 26,
+    "courses": 27,
     "events": 42,
     "webinars": 59
   },
@@ -2074,12 +2074,8 @@
       "date": "22.10.2026",
       "links": [
         {
-          "label": "certificate (English)",
-          "url": "certificates/2026/ML_in_production_Frolov_Sergey_EN.pdf"
-        },
-        {
-          "label": "original (Russian)",
-          "url": "certificates/2026/ML_in_production_Frolov_Sergey.pdf"
+          "label": "certificate",
+          "url": "certificates/2026/Cloud_ru_Certificate_Sergey_Frolov_ML_in_Production_EN.pdf"
         }
       ]
     },
@@ -2110,6 +2106,21 @@
         {
           "label": "holyjs.ru",
           "url": "https://holyjs.ru/"
+        }
+      ]
+    },
+    {
+      "type": "courses",
+      "month": "October",
+      "month_index": 9,
+      "year": 2026,
+      "title": "Fundamentals of ML Systems and Data Processing",
+      "meta": "Cloud.ru, certificate No. 7646",
+      "date": "24.10.2026",
+      "links": [
+        {
+          "label": "certificate",
+          "url": "certificates/2026/Cloud_ru_Certificate_Sergey_Frolov_ML_Systems_Data_Processing_EN.pdf"
         }
       ]
     }
