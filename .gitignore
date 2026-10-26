@@ -17,7 +17,3 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
-
-# Node / build output
-node_modules/
-dist/

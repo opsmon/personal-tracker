@@ -1,42 +1,32 @@
-# Activity Tracker
+# Personal Tracker
 
-My personal tracker for learning and professional activities. Helps me understand my own yearly activity: how many books I've read, courses completed, and events attended.
+A personal log of books, courses, offline events and webinars, published at
+<https://opsmon.github.io/personal-tracker/>.
 
-## Website
+```text
+content/    # Activity logs by category and year
+app/        # Website, certificates, tests, scripts and all Node.js tooling
+.github/    # PR checks and GitHub Pages workflow
+```
 
-The visual dashboard is published at:
-<https://opsmon.github.io/personal-tracker/>
+## Updating the tracker
 
-GitHub Actions rebuilds the site from the Markdown logs after every push to
-`main`. To preview the generated data locally:
+Edit the yearly Markdown files in [`content/`](content/):
+[books](content/books/), [courses](content/courses/),
+[offline events](content/events/) or [webinars](content/webinars/).
+
+Store certificate PDFs in [`app/public/certificates/`](app/public/certificates/)
+under the matching year. See [the website guide](app/README.md) for the log
+format, certificate links, development commands and verification.
+
+## Running the website
 
 ```bash
-ruby scripts/build_data.rb
-npm install
+cd app
+nvm use
+npm ci
 npm run dev
 ```
 
-Then open the local URL printed by Vite.
-
-## Structure
-
-This repository is organized by activity type:
-
-- **[books/](books/)** - Books I've read
-- **[courses/](courses/)** - Online courses and training I've completed
-- **[events/](events/)** - Offline conferences, meetups, workshops, and other events
-- **[webinars/](webinars/)** - Online webinars and streamed events
-
-Each category contains yearly markdown files tracking activities by month.
-
-## Glossary
-
-**Courses** means all learning programs I complete or intentionally work
-through: for personal growth, refreshing fundamentals, testing educational
-materials at people's request, evaluating platforms, or keeping practical
-skills current.
-
-## Publishing
-
-For the first deployment, open `Settings` → `Pages` in the GitHub repository
-and select `GitHub Actions` as the source. Future updates are automatic.
+Open <http://127.0.0.1:5173/personal-tracker/>. Building, tests, dependencies,
+generated data and reports all run inside `app/`.

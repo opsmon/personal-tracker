@@ -1,0 +1,138 @@
+.hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  min-height: 670px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0 75px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero-glow {
+  position: absolute;
+  z-index: -1;
+  top: -310px;
+  left: 50%;
+  width: 850px;
+  height: 700px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 33% 65%, rgba(0, 113, 227, 0.2), transparent 49%),
+    radial-gradient(circle at 68% 58%, rgba(175, 82, 222, 0.17), transparent 47%);
+  filter: blur(18px);
+  transform: translateX(-50%);
+}
+
+.eyebrow,
+.section-kicker {
+  margin: 0;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 650;
+}
+
+h1 {
+  margin: 15px 0 0;
+  font-size: clamp(60px, 9vw, 108px);
+  font-weight: 700;
+  line-height: 0.87;
+  letter-spacing: -0.075em;
+}
+
+h1 span {
+  color: var(--blue);
+}
+
+.lead {
+  max-width: 650px;
+  margin: 30px 0 0;
+  color: var(--muted);
+  font-size: clamp(18px, 2vw, 22px);
+  letter-spacing: -0.025em;
+}
+
+.stats {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-top: 60px;
+}
+
+.stat {
+  display: flex;
+  min-height: 112px;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.055);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.82);
+  text-align: left;
+  backdrop-filter: blur(20px);
+}
+
+.stat-icon,
+.activity-icon {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-weight: 700;
+}
+
+.stat-icon {
+  width: 43px;
+  height: 43px;
+  border-radius: 13px;
+  font-size: 12px;
+}
+
+.books-icon,
+.book-icon {
+  background: #e8f2ff;
+  color: var(--book);
+}
+
+.courses-icon,
+.course-icon {
+  background: #f3eafb;
+  color: var(--course);
+}
+
+.events-icon,
+.event-icon {
+  background: #fff0df;
+  color: var(--event);
+}
+
+.webinars-icon,
+.webinar-icon {
+  background: #fdebf2;
+  color: var(--webinar);
+}
+
+.total-icon {
+  background: #e9f7ec;
+  color: var(--green);
+}
+
+.stat strong,
+.stat span {
+  display: block;
+}
+
+.stat strong {
+  font-size: 27px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.stat div > span {
+  margin-top: 6px;
+  color: var(--subtle);
+  font-size: 12px;
+}
