@@ -1,0 +1,73 @@
+.chart {
+  display: grid;
+  min-height: 285px;
+  grid-template-columns: repeat(12, minmax(26px, 1fr));
+  gap: clamp(7px, 1.4vw, 18px);
+  align-items: end;
+  padding: 35px 30px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.055);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+}
+
+.chart-column {
+  display: grid;
+  height: 220px;
+  grid-template-rows: 20px 1fr 20px;
+  gap: 8px;
+  align-items: end;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  text-align: center;
+}
+
+.chart-column:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 6px;
+}
+
+.chart-value {
+  min-height: 20px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.chart-track {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #f1f1f3;
+}
+
+.chart-track span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #49a5ff, var(--blue));
+}
+
+.chart-column:hover .chart-track,
+.chart-column.is-active .chart-track {
+  background: #e6f2ff;
+}
+
+.chart-column.is-active .chart-track {
+  box-shadow: inset 0 0 0 2px var(--blue);
+}
+
+.chart-column.is-active small {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.chart-column small {
+  color: var(--subtle);
+  font-size: 10px;
+  text-transform: uppercase;
+}

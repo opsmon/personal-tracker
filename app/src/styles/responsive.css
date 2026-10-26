@@ -1,0 +1,119 @@
+@media (max-width: 850px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .chart {
+    overflow-x: auto;
+  }
+
+  .chart-column {
+    min-width: 30px;
+  }
+}
+
+@media (max-width: 680px) {
+  .topbar {
+    padding: 0 16px;
+  }
+
+  .topbar nav {
+    gap: 17px;
+  }
+
+  .topbar nav a:first-child {
+    display: none;
+  }
+
+  main,
+  footer {
+    width: min(100% - 28px, 1180px);
+  }
+
+  .hero {
+    min-height: 690px;
+    padding-top: 80px;
+  }
+
+  h1 {
+    font-size: clamp(62px, 20vw, 90px);
+  }
+
+  .stats {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 45px;
+  }
+
+  .stat {
+    min-height: 105px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .timeline-heading .search {
+    width: 100%;
+  }
+
+  .glossary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .month-group {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .month-label {
+    position: static;
+    justify-content: flex-start;
+    gap: 9px;
+  }
+
+  .activity-card {
+    padding: 18px;
+  }
+
+  footer {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand strong {
+    display: none;
+  }
+
+  .stats {
+    gap: 8px;
+  }
+
+  .stat {
+    padding: 16px;
+  }
+
+  .activity-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
