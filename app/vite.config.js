@@ -1,12 +1,12 @@
 import { defineConfig } from "vite";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
 import path from "node:path";
-import { buildData, repositoryRoot } from "../scripts/lib/activity-data.mjs";
+import { buildData, repositoryRoot, appRoot } from "./scripts/lib/activity-data.mjs";
 
 export default defineConfig({
-  root: path.join(repositoryRoot, "app"),
+  root: appRoot,
   base: process.env.SITE_BASE_PATH || "/personal-tracker/",
-  build: { outDir: path.join(repositoryRoot, "dist"), emptyOutDir: true },
+  build: { outDir: path.join(appRoot, "dist"), emptyOutDir: true },
   plugins: [
     {
       name: "activity-data",

@@ -4,13 +4,13 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { spawn } from "node:child_process";
 import { setTimeout } from "node:timers/promises";
-import { repositoryRoot } from "./lib/activity-data.mjs";
+import { repositoryRoot, appRoot } from "./lib/activity-data.mjs";
 
 const port = process.env.SMOKE_PORT || "4180";
 const base = process.env.SITE_BASE_PATH || "/personal-tracker/";
 const origin = `http://127.0.0.1:${port}`;
-const server = spawn(process.execPath, ["node_modules/vite/bin/vite.js", "preview", "--config", "app/vite.config.js",
-  "--host", "127.0.0.1", "--port", port, "--strictPort"], { cwd: repositoryRoot, stdio: "pipe" });
+const server = spawn(process.execPath, ["node_modules/vite/bin/vite.js", "preview", "--config", "vite.config.js",
+  "--host", "127.0.0.1", "--port", port, "--strictPort"], { cwd: appRoot, stdio: "pipe" });
 let logs = "";
 server.stdout.on("data", (data) => { logs += data; });
 server.stderr.on("data", (data) => { logs += data; });

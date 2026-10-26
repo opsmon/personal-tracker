@@ -4,7 +4,7 @@ import { mkdtempSync, mkdirSync, writeFileSync, rmSync, readFileSync } from "nod
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { buildData, parseLog, repositoryRoot } from "../scripts/lib/activity-data.mjs";
-import { assetUrl, filterActivities, summarize } from "../app/src/lib/catalog.js";
+import { assetUrl, filterActivities, summarize } from "../src/lib/catalog.js";
 
 function fixture(t) {
   const root = mkdtempSync(path.join(tmpdir(), "tracker-data-"));

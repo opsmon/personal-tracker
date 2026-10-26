@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -28,6 +31,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
+          cache-dependency-path: app/package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -63,9 +67,9 @@ jobs:
         with:
           name: candidate-${{ github.event.pull_request.head.sha || github.sha }}
           path: |
-            dist/
-            candidate.txt
-            test-results/
+            app/dist/
+            app/candidate.txt
+            app/test-results/
           include-hidden-files: true
 
       - name: Upload browser failure evidence
@@ -73,13 +77,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: browser-failure-${{ github.run_id }}
-          path: test-results/
+          path: app/test-results/
 
       - name: Upload artifact
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./dist
+          path: ./app/dist
 
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
@@ -92,6 +96,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Download verified candidate for production health checks
+        uses: actions/download-artifact@v4
+        with:
+          name: candidate-${{ github.sha }}
+          path: candidate
+
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
@@ -101,6 +111,6 @@ jobs:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           curl --fail --retry 5 --retry-delay 5 "$PAGE_URL" --output /dev/null
-          find dist/certificates -type f -name '*.pdf' -print0 | while IFS= read -r -d '' file; do
-            curl --fail --retry 5 --retry-delay 5 "${PAGE_URL}${file#dist/}" --output /dev/null
+          find candidate/dist/certificates -type f -name '*.pdf' -print0 | while IFS= read -r -d '' file; do
+            curl --fail --retry 5 --retry-delay 5 "${PAGE_URL}${file#candidate/dist/}" --output /dev/null
           done

@@ -1,9 +1,10 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { monthNames, typeKeys } from "../../app/src/lib/catalog.js";
+import { monthNames, typeKeys } from "../../src/lib/catalog.js";
 
-export const repositoryRoot = fileURLToPath(new URL("../../", import.meta.url));
+export const appRoot = fileURLToPath(new URL("../../", import.meta.url));
+export const repositoryRoot = fileURLToPath(new URL("../../../", import.meta.url));
 
 function cleanText(text) {
   return text.replace(/\[([^\]]+)\]\([^)]+\)/g, "")
