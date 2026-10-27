@@ -4,10 +4,10 @@ export const monthNames = [
 ];
 
 export const typeCopy = {
-  books: { label: "Books", singular: "Book", className: "book", glyph: "B", statLabel: "Books read" },
-  courses: { label: "Courses", singular: "Course", className: "course", glyph: "C", statLabel: "Courses completed" },
-  events: { label: "Offline events", singular: "Offline event", className: "event", glyph: "E", statLabel: "Offline events" },
-  webinars: { label: "Webinars", singular: "Webinar", className: "webinar", glyph: "W", statLabel: "Webinars" }
+  books: { label: "Books", singular: "Book", className: "book", icon: "book", statLabel: "Books read" },
+  courses: { label: "Courses", singular: "Course", className: "course", icon: "graduation", statLabel: "Courses completed" },
+  events: { label: "Offline events", singular: "Offline event", className: "event", icon: "people", statLabel: "Offline events" },
+  webinars: { label: "Webinars", singular: "Webinar", className: "webinar", icon: "webinar", statLabel: "Webinars" }
 };
 
 export const typeKeys = Object.keys(typeCopy);

@@ -128,7 +128,11 @@
   width: 38px;
   height: 38px;
   border-radius: 12px;
-  font-size: 11px;
+}
+
+.activity-icon svg {
+  width: 20px;
+  height: 20px;
 }
 
 .activity-body {

@@ -80,15 +80,17 @@ h1 span {
   display: grid;
   flex: 0 0 auto;
   place-items: center;
-  font-family: "SFMono-Regular", Consolas, monospace;
-  font-weight: 700;
 }
 
 .stat-icon {
   width: 43px;
   height: 43px;
   border-radius: 13px;
-  font-size: 12px;
+}
+
+.stat-icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .books-icon,
@@ -121,7 +123,7 @@ h1 span {
 }
 
 .stat strong,
-.stat span {
+.stat div > span {
   display: block;
 }
 
