@@ -1,11 +1,14 @@
 <script>
+  import ActivityIcon from "./ActivityIcon.svelte";
   import { typeCopy, assetUrl } from "../lib/catalog.js";
   export let activity;
   $: type = typeCopy[activity.type];
 </script>
 
 <article class="activity-card">
-  <span class="activity-icon {type.className}-icon" aria-hidden="true">{type.glyph}</span>
+  <span class="activity-icon {type.className}-icon" aria-hidden="true">
+    <ActivityIcon name={type.icon} />
+  </span>
   <div class="activity-body">
     <div class="activity-meta">
       <span class="type-label {type.className}-text">{type.singular}</span>
